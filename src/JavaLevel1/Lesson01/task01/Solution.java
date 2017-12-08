@@ -51,7 +51,7 @@ public class Solution {
      *  считаем положительным числом.
      * @param number
      */
-    public static void printNumner(int number) {
+    public static void printNumber(int number) {
         if (number < 0)
             System.out.println("Число " + number + " отрицательное");
         else System.out.println("Число " + number + " положительное");
@@ -73,7 +73,7 @@ public class Solution {
      * @param name
      */
     public static void printName(String name) {
-        System.out.println("Привет, " + name);
+        System.out.println("Привет, " + name + "!");
     }
 
     /** 8. * Написать метод, который определяет является ли год високосным, и выводит сообщение в консоль.
