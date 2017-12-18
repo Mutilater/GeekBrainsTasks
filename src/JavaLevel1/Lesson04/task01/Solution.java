@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 
     public class Solution {
-        public static int SIZE = 5;
-        public static int DOTS_TO_WIN = 3;
+        public static int SIZE = 3;         // Размерность игрового поля по умолчанию.
+        public static int DOTS_TO_WIN = 3;  // Количество точек для победы по умолчанию.
         public static final char DOT_EMPTY = '•';
         public static final char DOT_X = 'X';
         public static final char DOT_O = 'O';
